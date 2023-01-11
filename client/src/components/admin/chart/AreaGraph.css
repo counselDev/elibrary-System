@@ -1,0 +1,27 @@
+.chart {
+    flex: 2.5;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+    color: gray;
+    background-color: #fff;
+    width: 100%;
+    height: 59vh;
+    grid-column: 1/3;
+  }
+  
+  .chartGrid {
+    stroke: rgb(228, 225, 225);
+  }
+  
+  .title {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .chart {
+      overflow-x: auto;
+    }
+  }
